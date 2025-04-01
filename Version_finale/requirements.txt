@@ -1,0 +1,5 @@
+winshell
+pywin32
+Pillow
+ttkthemes
+ttkbootstrap
