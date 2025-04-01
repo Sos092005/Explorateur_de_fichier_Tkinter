@@ -15,12 +15,12 @@ root.rowconfigure(0, weight=0)  # Barre supérieure (fixe)
 root.rowconfigure(1, weight=1)  # Contenu principal (élastique)
 
 # 🔹 Barre d'outils (colonne gauche)
-barre_outils = tk.Frame(root, width=41, height=972, bg="#f8f8f8",
+barre_outils = tk.Frame(root, width=41, height=972, bg="#f9f9f9",
                         highlightbackground="#e5e5e5", highlightthickness=1, bd=0)
 barre_outils.grid(row=1, column=0, sticky="nsw")
 
 # 🔹 Barre latérale (explorateur de fichiers)
-barre_laterale = tk.Frame(root, width=152, height=972, bg="#f8f8f8",
+barre_laterale = tk.Frame(root, width=152, height=972, bg="#f9f9f9",
                           highlightbackground="#e5e5e5", highlightthickness=1, bd=0)
 barre_laterale.grid(row=1, column=1, sticky="nsw")
 
@@ -70,7 +70,6 @@ create_rounded_rect(canvas, barre_recherche_x1 - 5, 8, barre_recherche_x2 + 5, 3
 
 # 🔹 Ajout de la fonction au Canvas
 tk.Canvas.create_rounded_rect = create_rounded_rect
-  
 
 # 🔹 Ajout d'un Canvas avec un Scrollbar pour la fenêtre principale (fenetre_principale)
 canvas_principal = tk.Canvas(fenetre_principale, bg="#ffffff", bd=0)
@@ -86,9 +85,12 @@ canvas_principal.config(yscrollcommand=scrollbar_vertical.set)
 # 🔹 Create a frame to contain the content inside the canvas
 content_frame = tk.Frame(canvas_principal, bg="#ffffff")
 
+"""
 # 🔹 Add content to the content frame (to simulate overflow)
 for i in range(30):  # This will add a lot of content to overflow the canvas
     tk.Label(content_frame, text=f"Item {i+1}", font=("Segoe UI", 12)).pack(pady=5)
+"""
+
 
 # 🔹 Place the content frame inside the canvas
 canvas_principal.create_window((0, 0), window=content_frame, anchor="nw")
@@ -102,3 +104,4 @@ content_frame.bind("<Configure>", on_frame_configure)
 
 # Lancement de l'interface
 root.mainloop()
+
