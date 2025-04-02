@@ -4,6 +4,14 @@ Un explorateur de fichiers simple développé avec Tkinter, offrant des fonction
 
 ![Aperçu de l'Interface](app-screenshot.png)
 
+
+## Membres du groupe et contributeurs
+GBEHOU Louis-Victorien
+AHIVODJI Kenneth
+ADOUNSA M. Sosthène I. (a contribué avec plus d'un compte )
+ATCHAOUE Jordy Lys 
+HOUNZA Yann 
+
 ## Fonctionnalités
 
 | **Fonctionnalités Principales**       | **Fonctionnalités Bonus**       |
