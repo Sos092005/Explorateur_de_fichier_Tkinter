@@ -9,7 +9,7 @@ A simple file explorer built using Tkinter with enhanced functionalities and cro
 | Core Functionalities         | Bonus Functionalities |
 |------------------------------|-----------------------|
 | Directory navigation          | Grid/List view toggle |
-| Context menu (Open/Delete/Rename) | Theme switching (Light/Dark) |
+| Context menu (Open/Delete/Rename) | Theme switching (all the ttkbootstrap themes ) |
 | Favorites management          |                       |
 | File search                   |                       |
 | File info display (size, date)|                       |
