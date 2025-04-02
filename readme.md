@@ -29,10 +29,12 @@ Un explorateur de fichiers simple développé avec Tkinter, offrant des fonction
 ## Problèmes Rencontrés & Solutions
 
 
-# Problème majeur
+### Problème majeur
 La structure initiale prevue était modulaire et developpée sous le dossier Version_initiale [Version_initiale](https://github.com/Sos092005/Explorateur_de_fichier_Tkinter/tree/main/Version_initiale)
 Mais nous n'avons pu résourdre les problemes d'imports entre fichiers . Nous avons donc recemment optés pour une structure en un seul fichier  [un seul fichier](https://github.com/Sos092005/Explorateur_de_fichier_Tkinter/blob/main/Version_finale/four.py)
 
+
+### Problèmes rencontrés
 | **Problèmes**                          | **Solutions Appliquées**           |
 |---------------------------------------|-----------------------------------|
 | Complexité des imports multi-fichiers | Code consolidé dans [un seul fichier](https://github.com/Sos092005/Explorateur_de_fichier_Tkinter/blob/main/Version_finale/four.py) |
